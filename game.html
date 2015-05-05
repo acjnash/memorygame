@@ -38,7 +38,7 @@
 
       return array;
     }
-    
+
     function flip(card, letter) {
 
       if (card.innerHTML == '' && memory_values.length < 2) {
@@ -61,7 +61,7 @@
           console.log(memory_values);
 
           if (memory_values[0] == memory_values[1]) {
-            
+
             // Match found
             console.log('match found');
 
@@ -70,7 +70,7 @@
             memory_card_ids = [];
 
           } else {
-            
+
             // No match
             console.log('no match, flip back');
 
@@ -113,7 +113,7 @@
 </head>
 <body onload="loadBoard()">
   <div id="board">
-    This game needs JavaScript enabled to work. Please enable it.
+    This game requires JavaScript enabled to work. Please enable it now.
   </div>
 </body>
 </html>
